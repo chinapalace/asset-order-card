@@ -4,7 +4,7 @@ import { OrderCard } from './components/OrderCard'
 
 export function Routes(): JSX.Element {
     return (
-        <Route path="*">
+        <Route>
             <OrderCard currency={'WETH'} date={new Date()} />
         </Route>
     )
